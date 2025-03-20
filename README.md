@@ -4,4 +4,6 @@
 * pagina web sobre mi, se va tratar sobre mis gustos
   -comida
   -peliculas
+  -mascotas
+  -musica
   
