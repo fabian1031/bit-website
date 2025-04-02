@@ -1,18 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
+    <!-- dentro del head se puede poner estilos -->
+    <style>
+        .text-green {
+            color: green;
+        }
+    </style>
+
 </head>
+
 <body>
     <h1>css</h1>
     <hr>
     <section>
         <h2>box model</h2>
-        <div>div 1 content</div>
-        <div>div 2 content</div>
+        <div class="box-blue">content</div>
+        <div class="box-red">
+            <div class="box-green"></div>
+        </div>
     </section>
+    <section>
+        <h2>Types</h2>
+        <!-- etiqueta tipo bloque -->
+        <div>1</div>
+        <div>2</div>
+        <!-- etiqueta tipo en linea -->
+        <hr>
+        <span>1</span>
+        <span>2</span>
+    </section>
+    <section>
+        <!-- implementa en linea -->
+        <h2>way to implement</h2>
+        <p style="color: purple;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id tempore amet vero quis,
+            veritatis ipsam numquam, nostrum sapiente consequatur minima nemo sit soluta a. Eaque quos deleniti iusto
+            numquam architecto!</p>
+        <!-- internamente dentro de html dentro de la etiqueta style style tag-->
+        <p class="text-green">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga totam ducimus incidunt.
+            Veritatis laborum quae alias corporis provident unde perferendis molestiae accusamus deserunt tempora
+            excepturi, quasi quod odit molestias eum!</p>
+    </section>
+
+
 </body>
+
 </html>

@@ -1,0 +1,19 @@
+/* reglas globales- afectada todo mi documento */
+* {
+    box-sizing: border-box;
+}
+/* general Dry no repetir lo mismo*/
+/* Se recomienda poner siempre el height: 100%; */
+html, body {
+    height: 100%;
+}
+body{
+    margin: 0px;
+    
+}
+#mYid{   
+    color: blue;
+}
+.my-class{
+color: red
+}
