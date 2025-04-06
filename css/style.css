@@ -33,6 +33,17 @@ footer {
     border: solid;
 }
 
+/* header de paginas */
+.header-i{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+.nav-i{
+    height: auto;
+ 
+}
+
 main,
 aside {
     height: auto;
@@ -44,15 +55,12 @@ header {
     background-color: #fff8dc;
 }
 
-nav {
-    height: 5%;
-}
 
 main {
     width: 60%;
     height: auto;
     display: flex;
-      flex-direction: column;
+    flex-direction: column;
 }
 
 aside {
@@ -68,6 +76,8 @@ footer {
 
 /* Clases */
 
+
+/* h1 centrato de texto */
 .centrar-texto{
 width: 100%;
 display: flex;
@@ -108,8 +118,74 @@ section{
 }
 
 
+/* flexbox familia */
+
+.main-f{
+    width: 80%;
+    height: auto;
+   
+
+}
+.aside-f{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: auto;
+    list-style: none;
+
+}
 
 
+/* diseño de flex de hoobies, anime, musica */
+.aside-h, .main-h, .main-m, .aside-m {
+
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: auto;
+}
+/* diseño flex de musica */
+.main-m2{
+    width: 100%;
+}
+
+/* diseño de letras */
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+h1{
+    color: #2e2e2e; 
+    font-size: 50px;
+    font-weight: bold; 
+}
+
+/* menu de la pagina */
+.menu-list li a {
+      text-decoration: none;
+      color: #000000;
+      font-size: 18px;
+      font-weight: bold;
+      transition: color 0.3s ease, transform 0.3s ease;
+    }
+
+    .menu-list li a:hover {
+      color: #ffd700;
+      transform: scale(1.1);
+    }
+
+    .menu-list li a:active {
+      color: #b8860b;
+    }
+
+
+/* estilo del footer */
 footer {
     display: flex;
     flex-direction: column;
