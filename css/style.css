@@ -1,17 +1,159 @@
+/* TAGS */
 * {
     box-sizing: border-box;
 }
+
 /* general Dry no repetir lo mismo*/
 /* Se recomienda poner siempre el height: 100%; */
-html, body {
+html,
+body {
     height: 100%;
-    
-}
-body{
-    margin: 0px;
+
 }
 
-h1{
-    border-color: green;
-    border-style: solid;
+body {
+    margin: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header,
+nav,
+main,
+aside,
+footer {
+    display: flex;
+}
+
+header,
+nav,
+footer {
+    width: 100%;
+    border-color: black 300px;
+    border: solid;
+}
+
+main,
+aside {
+    height: auto;
+    border: 2px solid blue;
+}
+
+header {
+    height: 10%;
+    background-color: #fff8dc;
+}
+
+nav {
+    height: 5%;
+}
+
+main {
+    width: 60%;
+    height: auto;
+    display: flex;
+      flex-direction: column;
+}
+
+aside {
+    width: 20%;
+    height: auto;
+
+}
+
+footer {
+    width: 100%;
+    height: auto;
+}
+
+/* Clases */
+
+.centrar-texto{
+width: 100%;
+display: flex;
+justify-content: center;
+background-color: #fff8dc;
+}
+
+nav {
+    display: flex; 
+    justify-content: center; 
+    background-color: #fff8dc; 
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+}
+
+nav a {
+    text-decoration: none; 
+    margin: 0 15px; 
+    color: #000000; 
+    font-size: 18px; 
+    font-weight: bold; 
+    transition: color 0.3s ease, transform 0.3s ease; 
+}
+
+nav a:hover {
+    color: #ffd700; 
+    transform: scale(1.1); 
+}
+
+nav a:active {
+    color: #b8860b; 
+}
+section{
+    padding: 60px;
+    margin-bottom: 0px;
+    border: 2px solid;
+    border-color: #b8860b;
+}
+
+
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1a1a1a;
+    padding: 30px;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.2);
+    color: #d4af37;
+    font-size: 16px;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    margin: 0 8px;
+    color: #d4af37;
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+footer a:hover {
+    color: #ffd700;
+    transform: scale(1.1);
+}
+
+footer a:active {
+    color: #b8860b;
+}
+
+footer .social-icons {
+    margin-top: 15px;
+}
+
+footer .social-icons a {
+    margin: 0 10px;
+}
+
+footer .social-icons img {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.3s ease;
+}
+
+footer .social-icons img:hover {
+    transform: scale(1.2);
 }
