@@ -1,10 +1,6 @@
 # bit-website
 # [Fabian Beltrán](https://github.com/fabian1031/bit-website)
 
-
-Este código mostrará el nombre Fabian Beltrán como un enlace que lleva a la URL que proporcionaste. ¡Espero que te sirva! 🚀
- 
-
 ## Mi Primer Proyecto de Página Web  
 
 Bienvenido a mi primer proyecto web, un espacio creado con **HTML** y **CSS** para compartir más sobre mí y mis gustos.  
